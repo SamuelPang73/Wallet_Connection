@@ -1,0 +1,49 @@
+{
+  "name": "wallet_connection",
+  "version": "0.1.0",
+  "description": "Wallet Connection",
+  "author": "author",
+  "homepage": ".",
+  "engines": {
+    "node": "16.13.1"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.5.3",
+    "@mycrypto/eth-scan": "^3.5.3",
+    "@testing-library/react": "^12.1.3",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "bootstrap": "^5.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "ethers": "^5.5.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-scripts": "^4.0.3",
+    "redux-thunk": "^2.4.1",
+    "testing-library": "^0.0.2",
+    "web3": "^1.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
